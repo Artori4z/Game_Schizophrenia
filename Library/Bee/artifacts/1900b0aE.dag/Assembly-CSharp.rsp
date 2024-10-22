@@ -356,6 +356,7 @@
 "Assets/scrip/ChangeCamera.cs"
 "Assets/scrip/GhostAi.cs"
 "Assets/scrip/Ghostsiri.cs"
+"Assets/scrip/GhostTwo.cs"
 "Assets/scrip/HpBar.cs"
 -langversion:9.0
 /deterministic
