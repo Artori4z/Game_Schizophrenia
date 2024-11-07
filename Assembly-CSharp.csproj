@@ -61,11 +61,16 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\scrip\GhostAi.cs" />
+    <Compile Include="Assets\scrip\Timer.cs" />
     <Compile Include="Assets\scrip\GhostTwo.cs" />
+    <Compile Include="Assets\scrip\MainHp.cs" />
     <Compile Include="Assets\scrip\HpBar.cs" />
     <Compile Include="Assets\scrip\Ghostsiri.cs" />
     <Compile Include="Assets\scrip\CameraMove.cs" />
+    <Compile Include="Assets\scrip\Med.cs" />
+    <Compile Include="Assets\scrip\MenuCam.cs" />
     <Compile Include="Assets\scrip\ChangeCamera.cs" />
+    <Compile Include="Assets\scrip\Public.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

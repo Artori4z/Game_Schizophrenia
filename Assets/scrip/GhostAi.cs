@@ -11,18 +11,17 @@ public abstract class GhostAi : MonoBehaviour
     [SerializeField] protected Transform[] ghostSpawnPoint;
     private float time = 1f;
     [SerializeField] protected Camera player;
-    [SerializeField]private float ghostSpawnTime;
+    private float ghostSpawnTime = 0;
     protected int random;
     //spawn ghost 1 per 10 sec
     private void FixedUpdate()
     {
-        ghostSpawnTime += Time.deltaTime;
+        ghostSpawnTime += Time.fixedDeltaTime;
         if (ghostSpawnTime >= 5)
         {
             ghostSpawnTime = time;
             GhostMove();
         }
-        
     }
     protected virtual void GhostMove()
     {
