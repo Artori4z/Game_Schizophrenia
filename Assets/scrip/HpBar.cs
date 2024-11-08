@@ -22,7 +22,7 @@ public class HpBar : MainHp
     {
         Hp -= Time.deltaTime;
 
-        if (Hp > 0)
+        if (Player && Hp > 0)
         {
             if (HpSlider.value != Hp)
             {

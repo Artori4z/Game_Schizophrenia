@@ -4306,8 +4306,8 @@ Transform:
   m_GameObject: {fileID: 2090817500}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: -0.7071068, z: 0.7071068, w: 0}
-  m_LocalPosition: {x: 0.02, y: -0.18, z: 0.86}
-  m_LocalScale: {x: 2.4802768, y: 1.7946522, z: 1}
+  m_LocalPosition: {x: -0.03, y: 0.12, z: 0.86}
+  m_LocalScale: {x: 3.1134915, y: 1.7946522, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1513957515}
@@ -4325,7 +4325,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CloseCamara: {fileID: 833879670}
-  OpenCamara: {fileID: 528440840}
+  OpenCamara: {fileID: 2040970695}
+  CloseCamara2: {fileID: 528440840}
 --- !u!65 &2090817503
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4415,6 +4416,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CloseCamara: {fileID: 2040970695}
   OpenCamara: {fileID: 528440840}
+  CloseCamara2: {fileID: 833879670}
 --- !u!1 &2116105300
 GameObject:
   m_ObjectHideFlags: 0
