@@ -30,13 +30,13 @@ public class Ghostsiri : GhostAi
             switch (gPosition)
             {
                 case 1:
-                    _rotation = Quaternion.Euler(90, -90, 90);
+                    _rotation = Quaternion.Euler(90, 0, 180);
                     ghostTwoD.transform.rotation = _rotation;
                     ghostTwoD.transform.position = ghostSpawnPoint[0].position;
 
                     break;
                 case 2:
-                    _rotation = Quaternion.Euler(-180, 0, 180);
+                    _rotation = Quaternion.Euler(90, 0, 270);
                     ghostTwoD.transform.rotation = _rotation;
                     ghostTwoD.transform.position = ghostSpawnPoint[1].position;
                     
@@ -48,7 +48,7 @@ public class Ghostsiri : GhostAi
                     
                     break;
                 case 4:
-                    _rotation = Quaternion.Euler(90, 0, 180);
+                    _rotation = Quaternion.Euler(90, 0, 0);
                     ghostTwoD.transform.rotation = _rotation;
                     ghostTwoD.transform.position = ghostSpawnPoint[3].position;
                     
