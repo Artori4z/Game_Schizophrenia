@@ -1,14 +1,22 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-public abstract class MainHp : MonoBehaviour
+using UnityEngine.UI;
+public class MainHp : MonoBehaviour
 {
-    private float maxHp;
-    protected float MaxHp { get { return maxHp; } set { maxHp = value; } }
-    private float hp;
-    protected float Hp { get { return hp; } set { hp = value; } }
-    public void TakeHeal(float heal)
+    [SerializeField] public Slider slider;
+    public void SetMaxHP(float maxHealth)
     {
-        Hp += heal;
+        slider.maxValue = maxHealth;
+    }
+
+    public float UpdateHealthBar(float currentHP)
+    {
+        slider.value = currentHP;
+        return slider.value;
+    }
+    public float ReturnHp()
+    {
+        return slider.value;
     }
 }

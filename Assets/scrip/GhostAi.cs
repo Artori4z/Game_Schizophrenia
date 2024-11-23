@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.VFX;
 
-public abstract class GhostAi : MonoBehaviour
+public abstract class GhostAi : Main
 {
     [SerializeField] protected int difficult;
     [SerializeField] protected GameObject ghostTwoD;
@@ -14,9 +14,9 @@ public abstract class GhostAi : MonoBehaviour
     private float ghostSpawnTime = 0;
     protected int random;
     //spawn ghost 1 per 10 sec
-    private void FixedUpdate()
+    private void Update()
     {
-        ghostSpawnTime += Time.fixedDeltaTime;
+        ghostSpawnTime += Time.deltaTime;
         if (ghostSpawnTime >= 5)
         {
             ghostSpawnTime = time;

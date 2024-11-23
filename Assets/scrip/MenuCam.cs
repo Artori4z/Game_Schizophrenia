@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class MenuCam : MonoBehaviour
+public class MenuCam : MonoBehaviour 
 {
     [SerializeField] Camera CloseCamara;
     [SerializeField] Camera OpenCamara;

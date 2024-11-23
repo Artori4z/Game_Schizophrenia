@@ -9,6 +9,7 @@ public class Ghostsiri : GhostAi
     private Quaternion _rotation;
     private int randomPosition;
     private int positionNow;
+    private float currentHP;
     protected override void GhostMove()
     {
        if (random <= difficult)
@@ -16,9 +17,9 @@ public class Ghostsiri : GhostAi
             //spawn
             if (ghostTwoD.transform.position == startPosition.position) 
             {
-                //randomPosition = Random.Range(1,6);
-                ghostPosition(1);
-                //positionNow = 1;
+                randomPosition = Random.Range(1,6);
+                ghostPosition(randomPosition);
+                
             }
         }
     }
@@ -75,6 +76,6 @@ public class Ghostsiri : GhostAi
         //random ghost next position
         randomPosition = Random.Range(1,6);
         ghostPosition(randomPosition);
-        Debug.Log(_count);
+        TakeDamage(10);
     }
 }

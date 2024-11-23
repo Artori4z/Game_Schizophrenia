@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.TextCore.Text;
 
-public class Med : MainHp
+public class Med : Main
 {
     /*bool count = false;
     public  void OnHitWith(HpBar Hp)
@@ -13,7 +13,6 @@ public class Med : MainHp
     }*/
     private void OnMouseDown()
     {
-        TakeHeal(10);
-        Debug.Log(Hp);
+        Heal(10);
     }
 }
