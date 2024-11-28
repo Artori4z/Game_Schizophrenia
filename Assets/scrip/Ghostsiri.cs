@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
 
-public class Ghostsiri : GhostAi
+public class Ghostsiri : GhostAi, Main
 {
     private int _count = 0;
     private Quaternion _rotation;
@@ -76,6 +76,6 @@ public class Ghostsiri : GhostAi
         //random ghost next position
         randomPosition = Random.Range(1,6);
         ghostPosition(randomPosition);
-        TakeDamage(10);
+        base.TakeDamage(10);
     }
 }

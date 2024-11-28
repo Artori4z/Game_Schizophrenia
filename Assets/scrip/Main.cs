@@ -7,30 +7,41 @@ public abstract class Main : MonoBehaviour
     [SerializeField] MainHp HpRight;
     [SerializeField] MainHp HpLeft;
     float _hp;
+    protected float HP { get { return _hp; } set { _hp = 50; } }
     // Start is called before the first frame update
-    void Awake()
+    void Start()
     {
-        _hp = 50;
-        HpRight.SetMaxHP(_hp);
-        HpLeft.SetMaxHP(_hp);
+        SetMaxHp(50);
+    }
+    public void SetMaxHp(float hp)
+    {
+        HP = hp;
+        HpRight.SetMaxHP(HP);
+        HpLeft.SetMaxHP(HP);
     }
     public void SetHp(float hp)
     {
-        _hp = hp;
-        HpRight.UpdateHealthBar(_hp);
-        HpLeft.UpdateHealthBar(_hp);
+        HP = hp;
+        HpRight.UpdateHealthBar(HP);
+        HpLeft.UpdateHealthBar(HP);
     }
     public void TakeDamage(float damage)
     {
-        _hp -= damage;
-        HpRight.UpdateHealthBar(_hp);
-        HpLeft.UpdateHealthBar(_hp);
+        Debug.Log(HP);
+        HP -= damage;
+        HpRight.UpdateHealthBar(HP);
+        HpLeft.UpdateHealthBar(HP);
+        Debug.Log(HP);
     }
     public void Heal(float heal) 
     {
-        _hp += heal;
-        HpRight.UpdateHealthBar(_hp);
-        HpLeft.UpdateHealthBar(_hp);
+        if (HP < 50) 
+        {
+            HP += heal;
+            HpRight.UpdateHealthBar(HP);
+            HpLeft.UpdateHealthBar(HP);
+        }
+        
     }
     public bool IsDead() 
     {

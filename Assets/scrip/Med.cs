@@ -11,8 +11,8 @@ public class Med : Main
         if (count == true)
             Hp.TakeHeal(this.Hp);
     }*/
-    private void OnMouseDown()
+    public void OnMouseDown()
     {
-        Heal(10);
+        base.Heal(5);
     }
 }

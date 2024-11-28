@@ -353,15 +353,16 @@
 -analyzer:"C:/Program Files/Unity/Hub/Editor/2022.3.40f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll"
 -analyzer:"C:/Program Files/Unity/Hub/Editor/2022.3.40f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 "Assets/scrip/CameraMove.cs"
+"Assets/scrip/CAmeraMoves.cs"
 "Assets/scrip/ChangeCamera.cs"
 "Assets/scrip/GhostAi.cs"
 "Assets/scrip/Ghostsiri.cs"
 "Assets/scrip/GhostTwo.cs"
 "Assets/scrip/HpBar.cs"
+"Assets/scrip/Main.cs"
 "Assets/scrip/MainHp.cs"
 "Assets/scrip/Med.cs"
 "Assets/scrip/MenuCam.cs"
-"Assets/scrip/Public.cs"
 "Assets/scrip/Timer.cs"
 -langversion:9.0
 /deterministic
