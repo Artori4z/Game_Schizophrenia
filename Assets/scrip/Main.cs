@@ -7,41 +7,37 @@ public abstract class Main : MonoBehaviour
     [SerializeField] MainHp HpRight;
     [SerializeField] MainHp HpLeft;
     float _hp;
-    protected float HP { get { return _hp; } set { _hp = 50; } }
     // Start is called before the first frame update
-    void Start()
+    void Awake()
     {
-        SetMaxHp(50);
-    }
-    public void SetMaxHp(float hp)
-    {
-        HP = hp;
-        HpRight.SetMaxHP(HP);
-        HpLeft.SetMaxHP(HP);
+        _hp = 50;
+        HpRight.SetMaxHP(_hp);
+        HpLeft.SetMaxHP(_hp);
+        SetHp(_hp);
     }
     public void SetHp(float hp)
     {
-        HP = hp;
-        HpRight.UpdateHealthBar(HP);
-        HpLeft.UpdateHealthBar(HP);
+        _hp = hp;
+        HpRight.UpdateHealthBar(_hp);
+        HpLeft.UpdateHealthBar(_hp);
     }
     public void TakeDamage(float damage)
     {
-        Debug.Log(HP);
-        HP -= damage;
-        HpRight.UpdateHealthBar(HP);
-        HpLeft.UpdateHealthBar(HP);
-        Debug.Log(HP);
+        Debug.Log(_hp);
+        _hp -= damage;
+        HpRight.UpdateHealthBar(_hp);
+        HpLeft.UpdateHealthBar(_hp);
+        Debug.Log(_hp);
+        _hp = HpRight.ReturnHp();
     }
     public void Heal(float heal) 
     {
-        if (HP < 50) 
-        {
-            HP += heal;
-            HpRight.UpdateHealthBar(HP);
-            HpLeft.UpdateHealthBar(HP);
-        }
-        
+        Debug.Log(_hp);
+        _hp += heal;
+            HpRight.UpdateHealthBar(_hp);
+            HpLeft.UpdateHealthBar(_hp);
+        _hp = HpRight.ReturnHp();
+        Debug.Log(_hp);
     }
     public bool IsDead() 
     {

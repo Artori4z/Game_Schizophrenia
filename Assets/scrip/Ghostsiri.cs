@@ -3,14 +3,32 @@ using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
 
-public class Ghostsiri : GhostAi, Main
+public class Ghostsiri : Main
 {
     private int _count = 0;
     private Quaternion _rotation;
     private int randomPosition;
     private int positionNow;
     private float currentHP;
-    protected override void GhostMove()
+    [SerializeField] protected int difficult;
+    [SerializeField] protected GameObject ghostTwoD;
+    [SerializeField] protected Transform startPosition;
+    [SerializeField] protected Transform[] ghostSpawnPoint;
+    private float time = 1f;
+    [SerializeField] protected Camera player;
+    private float ghostSpawnTime = 0;
+    protected int random;
+    //spawn ghost 1 per 10 sec
+    private void Update()
+    {
+        ghostSpawnTime += Time.deltaTime;
+        if (ghostSpawnTime >= 5)
+        {
+            ghostSpawnTime = time;
+            GhostMove();
+        }
+    }
+    protected  void GhostMove()
     {
        if (random <= difficult)
         {
