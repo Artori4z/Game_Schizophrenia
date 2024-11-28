@@ -5,8 +5,9 @@ using UnityEngine.TextCore.Text;
 
 public class Med : Main
 {
+    public Player player;
     public void OnMouseDown()
     {
-        base.Heal(5);
+        player.Heal(5);
     }
 }

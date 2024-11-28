@@ -363,6 +363,9 @@
 "Assets/scrip/MainHp.cs"
 "Assets/scrip/Med.cs"
 "Assets/scrip/MenuCam.cs"
+"Assets/scrip/NextButtun.cs"
+"Assets/scrip/Player.cs"
+"Assets/scrip/Return.cs"
 "Assets/scrip/Timer.cs"
 -langversion:9.0
 /deterministic

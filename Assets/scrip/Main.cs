@@ -6,7 +6,7 @@ public abstract class Main : MonoBehaviour
 {
     [SerializeField] MainHp HpRight;
     [SerializeField] MainHp HpLeft;
-    float _hp;
+    public float _hp;
     // Start is called before the first frame update
     void Awake()
     {

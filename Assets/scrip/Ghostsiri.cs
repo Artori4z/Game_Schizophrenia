@@ -18,6 +18,7 @@ public class Ghostsiri : Main
     [SerializeField] protected Camera player;
     private float ghostSpawnTime = 0;
     protected int random;
+    public Player _Player;
     //spawn ghost 1 per 10 sec
     private void Update()
     {
@@ -49,31 +50,31 @@ public class Ghostsiri : Main
             switch (gPosition)
             {
                 case 1:
-                    _rotation = Quaternion.Euler(90, 0, 180);
+                    _rotation = Quaternion.Euler(0, 180, 0);
                     ghostTwoD.transform.rotation = _rotation;
                     ghostTwoD.transform.position = ghostSpawnPoint[0].position;
 
                     break;
                 case 2:
-                    _rotation = Quaternion.Euler(90, 0, 270);
+                    _rotation = Quaternion.Euler(0, 90, 0);
                     ghostTwoD.transform.rotation = _rotation;
                     ghostTwoD.transform.position = ghostSpawnPoint[1].position;
                     
                     break;
                 case 3:
-                    _rotation = Quaternion.Euler(90, 0, 230);
+                    _rotation = Quaternion.Euler(0, 130, 0);
                     ghostTwoD.transform.rotation = _rotation;
                     ghostTwoD.transform.position = ghostSpawnPoint[2].position;
                     
                     break;
                 case 4:
-                    _rotation = Quaternion.Euler(90, 0, 0);
+                    _rotation = Quaternion.Euler(0, 0, 0);
                     ghostTwoD.transform.rotation = _rotation;
                     ghostTwoD.transform.position = ghostSpawnPoint[3].position;
                     
                     break;
                 case 5:
-                    _rotation = Quaternion.Euler(90, 0, 180);
+                    _rotation = Quaternion.Euler(0, 90, 0);
                     ghostTwoD.transform.rotation = _rotation;
                     ghostTwoD.transform.position = ghostSpawnPoint[4].position; 
                     
@@ -94,6 +95,6 @@ public class Ghostsiri : Main
         //random ghost next position
         randomPosition = Random.Range(1,6);
         ghostPosition(randomPosition);
-        base.TakeDamage(10);
+        _Player.TakeDamage(0);
     }
 }

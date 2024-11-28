@@ -41,7 +41,9 @@ public class CameraMove : MonoBehaviour
             || transform.position == MovePosition[2].transform.position
             || transform.position == MovePosition[4].transform.position
             || transform.position == MovePosition[6].transform.position
-            ){
+            || transform.position == MovePosition[7].transform.position
+            )
+        {
             i = 1;
         }if (transform.position == MovePosition[1].transform.position
             || transform.position == MovePosition[5].transform.position){

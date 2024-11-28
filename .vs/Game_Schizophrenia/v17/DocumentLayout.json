@@ -3,15 +3,31 @@
   "WorkspaceRootPath": "D:\\work\\Game_Schizophrenia\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4AA73218-C96D-98E5-DA5A-32D9FF3E1E2B}|Assembly-CSharp.csproj|D:\\work\\Game_Schizophrenia\\assets\\scrip\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4AA73218-C96D-98E5-DA5A-32D9FF3E1E2B}|Assembly-CSharp.csproj|solutionrelative:assets\\scrip\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4AA73218-C96D-98E5-DA5A-32D9FF3E1E2B}|Assembly-CSharp.csproj|D:\\work\\Game_Schizophrenia\\assets\\scrip\\ghostsiri.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4AA73218-C96D-98E5-DA5A-32D9FF3E1E2B}|Assembly-CSharp.csproj|solutionrelative:assets\\scrip\\ghostsiri.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4AA73218-C96D-98E5-DA5A-32D9FF3E1E2B}|Assembly-CSharp.csproj|D:\\work\\Game_Schizophrenia\\assets\\scrip\\med.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4AA73218-C96D-98E5-DA5A-32D9FF3E1E2B}|Assembly-CSharp.csproj|solutionrelative:assets\\scrip\\med.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4AA73218-C96D-98E5-DA5A-32D9FF3E1E2B}|Assembly-CSharp.csproj|D:\\work\\Game_Schizophrenia\\assets\\scrip\\timer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4AA73218-C96D-98E5-DA5A-32D9FF3E1E2B}|Assembly-CSharp.csproj|solutionrelative:assets\\scrip\\timer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4AA73218-C96D-98E5-DA5A-32D9FF3E1E2B}|Assembly-CSharp.csproj|d:\\work\\game_schizophrenia\\assets\\scrip\\mainhp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4AA73218-C96D-98E5-DA5A-32D9FF3E1E2B}|Assembly-CSharp.csproj|d:\\work\\game_schizophrenia\\assets\\scrip\\return.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4AA73218-C96D-98E5-DA5A-32D9FF3E1E2B}|Assembly-CSharp.csproj|solutionrelative:assets\\scrip\\return.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4AA73218-C96D-98E5-DA5A-32D9FF3E1E2B}|Assembly-CSharp.csproj|d:\\work\\game_schizophrenia\\assets\\scrip\\menucam.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4AA73218-C96D-98E5-DA5A-32D9FF3E1E2B}|Assembly-CSharp.csproj|solutionrelative:assets\\scrip\\menucam.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4AA73218-C96D-98E5-DA5A-32D9FF3E1E2B}|Assembly-CSharp.csproj|D:\\work\\Game_Schizophrenia\\assets\\scrip\\nextbuttun.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4AA73218-C96D-98E5-DA5A-32D9FF3E1E2B}|Assembly-CSharp.csproj|solutionrelative:assets\\scrip\\nextbuttun.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4AA73218-C96D-98E5-DA5A-32D9FF3E1E2B}|Assembly-CSharp.csproj|D:\\work\\Game_Schizophrenia\\assets\\scrip\\ghostai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4AA73218-C96D-98E5-DA5A-32D9FF3E1E2B}|Assembly-CSharp.csproj|solutionrelative:assets\\scrip\\ghostai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4AA73218-C96D-98E5-DA5A-32D9FF3E1E2B}|Assembly-CSharp.csproj|D:\\work\\Game_Schizophrenia\\assets\\scrip\\mainhp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4AA73218-C96D-98E5-DA5A-32D9FF3E1E2B}|Assembly-CSharp.csproj|solutionrelative:assets\\scrip\\mainhp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -19,16 +35,8 @@
       "RelativeMoniker": "D:0:0:{4AA73218-C96D-98E5-DA5A-32D9FF3E1E2B}|Assembly-CSharp.csproj|solutionrelative:assets\\scrip\\hpbar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4AA73218-C96D-98E5-DA5A-32D9FF3E1E2B}|Assembly-CSharp.csproj|D:\\work\\Game_Schizophrenia\\assets\\scrip\\ghostsiri.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4AA73218-C96D-98E5-DA5A-32D9FF3E1E2B}|Assembly-CSharp.csproj|solutionrelative:assets\\scrip\\ghostsiri.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4AA73218-C96D-98E5-DA5A-32D9FF3E1E2B}|Assembly-CSharp.csproj|D:\\work\\Game_Schizophrenia\\assets\\scrip\\menucam.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4AA73218-C96D-98E5-DA5A-32D9FF3E1E2B}|Assembly-CSharp.csproj|solutionrelative:assets\\scrip\\menucam.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4AA73218-C96D-98E5-DA5A-32D9FF3E1E2B}|Assembly-CSharp.csproj|D:\\work\\Game_Schizophrenia\\assets\\scrip\\ghostai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4AA73218-C96D-98E5-DA5A-32D9FF3E1E2B}|Assembly-CSharp.csproj|solutionrelative:assets\\scrip\\ghostai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4AA73218-C96D-98E5-DA5A-32D9FF3E1E2B}|Assembly-CSharp.csproj|D:\\work\\Game_Schizophrenia\\assets\\scrip\\med.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4AA73218-C96D-98E5-DA5A-32D9FF3E1E2B}|Assembly-CSharp.csproj|solutionrelative:assets\\scrip\\med.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4AA73218-C96D-98E5-DA5A-32D9FF3E1E2B}|Assembly-CSharp.csproj|D:\\work\\Game_Schizophrenia\\assets\\scrip\\changecamera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -39,12 +47,16 @@
       "RelativeMoniker": "D:0:0:{4AA73218-C96D-98E5-DA5A-32D9FF3E1E2B}|Assembly-CSharp.csproj|solutionrelative:assets\\scrip\\cameramove.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4AA73218-C96D-98E5-DA5A-32D9FF3E1E2B}|Assembly-CSharp.csproj|D:\\work\\Game_Schizophrenia\\assets\\scrip\\ghosttwo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4AA73218-C96D-98E5-DA5A-32D9FF3E1E2B}|Assembly-CSharp.csproj|solutionrelative:assets\\scrip\\ghosttwo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4AA73218-C96D-98E5-DA5A-32D9FF3E1E2B}|Assembly-CSharp.csproj|D:\\work\\Game_Schizophrenia\\assets\\scrip\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4AA73218-C96D-98E5-DA5A-32D9FF3E1E2B}|Assembly-CSharp.csproj|solutionrelative:assets\\scrip\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4AA73218-C96D-98E5-DA5A-32D9FF3E1E2B}|Assembly-CSharp.csproj|D:\\work\\Game_Schizophrenia\\assets\\scrip\\timer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4AA73218-C96D-98E5-DA5A-32D9FF3E1E2B}|Assembly-CSharp.csproj|solutionrelative:assets\\scrip\\timer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4AA73218-C96D-98E5-DA5A-32D9FF3E1E2B}|Assembly-CSharp.csproj|D:\\work\\Game_Schizophrenia\\assets\\scrip\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4AA73218-C96D-98E5-DA5A-32D9FF3E1E2B}|Assembly-CSharp.csproj|solutionrelative:assets\\scrip\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4AA73218-C96D-98E5-DA5A-32D9FF3E1E2B}|Assembly-CSharp.csproj|D:\\work\\Game_Schizophrenia\\assets\\scrip\\ghosttwo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4AA73218-C96D-98E5-DA5A-32D9FF3E1E2B}|Assembly-CSharp.csproj|solutionrelative:assets\\scrip\\ghosttwo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -54,25 +66,62 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 11,
               "Title": "Main.cs",
               "DocumentMoniker": "D:\\work\\Game_Schizophrenia\\Assets\\scrip\\Main.cs",
               "RelativeDocumentMoniker": "Assets\\scrip\\Main.cs",
               "ToolTip": "D:\\work\\Game_Schizophrenia\\Assets\\scrip\\Main.cs",
               "RelativeToolTip": "Assets\\scrip\\Main.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAAA9wAsAAAACAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-22T17:04:08.049Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "Return.cs",
+              "DocumentMoniker": "D:\\work\\Game_Schizophrenia\\Assets\\scrip\\Return.cs",
+              "RelativeDocumentMoniker": "Assets\\scrip\\Return.cs",
+              "ToolTip": "D:\\work\\Game_Schizophrenia\\Assets\\scrip\\Return.cs",
+              "RelativeToolTip": "Assets\\scrip\\Return.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T19:14:05.157Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "NextButtun.cs",
+              "DocumentMoniker": "D:\\work\\Game_Schizophrenia\\Assets\\scrip\\NextButtun.cs",
+              "RelativeDocumentMoniker": "Assets\\scrip\\NextButtun.cs",
+              "ToolTip": "D:\\work\\Game_Schizophrenia\\Assets\\scrip\\NextButtun.cs",
+              "RelativeToolTip": "Assets\\scrip\\NextButtun.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T19:01:57.96Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Player.cs",
+              "DocumentMoniker": "D:\\work\\Game_Schizophrenia\\Assets\\scrip\\Player.cs",
+              "RelativeDocumentMoniker": "Assets\\scrip\\Player.cs",
+              "ToolTip": "D:\\work\\Game_Schizophrenia\\Assets\\scrip\\Player.cs",
+              "RelativeToolTip": "Assets\\scrip\\Player.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T18:19:35.954Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "MainHp.cs",
               "DocumentMoniker": "D:\\work\\Game_Schizophrenia\\Assets\\scrip\\MainHp.cs",
               "RelativeDocumentMoniker": "Assets\\scrip\\MainHp.cs",
@@ -80,64 +129,60 @@
               "RelativeToolTip": "Assets\\scrip\\MainHp.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-28T13:39:20.1Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-28T13:39:20.1Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
               "Title": "HpBar.cs",
               "DocumentMoniker": "D:\\work\\Game_Schizophrenia\\Assets\\scrip\\HpBar.cs",
               "RelativeDocumentMoniker": "Assets\\scrip\\HpBar.cs",
               "ToolTip": "D:\\work\\Game_Schizophrenia\\Assets\\scrip\\HpBar.cs",
               "RelativeToolTip": "Assets\\scrip\\HpBar.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAEAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-07T14:22:11.536Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-07T14:22:11.536Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 8,
               "Title": "Med.cs",
               "DocumentMoniker": "D:\\work\\Game_Schizophrenia\\Assets\\scrip\\Med.cs",
               "RelativeDocumentMoniker": "Assets\\scrip\\Med.cs",
               "ToolTip": "D:\\work\\Game_Schizophrenia\\Assets\\scrip\\Med.cs",
               "RelativeToolTip": "Assets\\scrip\\Med.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAASAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-07T16:55:02.5Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-07T16:55:02.5Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "Ghostsiri.cs",
               "DocumentMoniker": "D:\\work\\Game_Schizophrenia\\Assets\\scrip\\Ghostsiri.cs",
               "RelativeDocumentMoniker": "Assets\\scrip\\Ghostsiri.cs",
               "ToolTip": "D:\\work\\Game_Schizophrenia\\Assets\\scrip\\Ghostsiri.cs",
               "RelativeToolTip": "Assets\\scrip\\Ghostsiri.cs",
-              "ViewState": "AgIAAFMAAAAAAAAAAAAwwB0AAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAEcAAAAAAAAAAAAwwGEAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-22T14:28:48.653Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "CameraMove.cs",
               "DocumentMoniker": "D:\\work\\Game_Schizophrenia\\Assets\\scrip\\CameraMove.cs",
               "RelativeDocumentMoniker": "Assets\\scrip\\CameraMove.cs",
               "ToolTip": "D:\\work\\Game_Schizophrenia\\Assets\\scrip\\CameraMove.cs",
               "RelativeToolTip": "Assets\\scrip\\CameraMove.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADIAAAARAAAAAAAAAA==",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAowCsAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-21T11:59:12.521Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-21T11:59:12.521Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "ChangeCamera.cs",
               "DocumentMoniker": "D:\\work\\Game_Schizophrenia\\Assets\\scrip\\ChangeCamera.cs",
               "RelativeDocumentMoniker": "Assets\\scrip\\ChangeCamera.cs",
@@ -145,50 +190,49 @@
               "RelativeToolTip": "Assets\\scrip\\ChangeCamera.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-07T12:56:52.164Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-07T12:56:52.164Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 5,
               "Title": "GhostAi.cs",
               "DocumentMoniker": "D:\\work\\Game_Schizophrenia\\Assets\\scrip\\GhostAi.cs",
               "RelativeDocumentMoniker": "Assets\\scrip\\GhostAi.cs",
               "ToolTip": "D:\\work\\Game_Schizophrenia\\Assets\\scrip\\GhostAi.cs",
               "RelativeToolTip": "Assets\\scrip\\GhostAi.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAxwAcAAAAEAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-22T14:27:23.706Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-22T14:27:23.706Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 3,
               "Title": "MenuCam.cs",
               "DocumentMoniker": "D:\\work\\Game_Schizophrenia\\Assets\\scrip\\MenuCam.cs",
               "RelativeDocumentMoniker": "Assets\\scrip\\MenuCam.cs",
               "ToolTip": "D:\\work\\Game_Schizophrenia\\Assets\\scrip\\MenuCam.cs",
               "RelativeToolTip": "Assets\\scrip\\MenuCam.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-07T13:16:20.124Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 1,
               "Title": "Timer.cs",
               "DocumentMoniker": "D:\\work\\Game_Schizophrenia\\Assets\\scrip\\Timer.cs",
               "RelativeDocumentMoniker": "Assets\\scrip\\Timer.cs",
               "ToolTip": "D:\\work\\Game_Schizophrenia\\Assets\\scrip\\Timer.cs",
               "RelativeToolTip": "Assets\\scrip\\Timer.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAiwCIAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADkAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-07T18:00:14.337Z"
+              "WhenOpened": "2024-11-07T18:00:14.337Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 13,
               "Title": "GhostTwo.cs",
               "DocumentMoniker": "D:\\work\\Game_Schizophrenia\\Assets\\scrip\\GhostTwo.cs",
               "RelativeDocumentMoniker": "Assets\\scrip\\GhostTwo.cs",
