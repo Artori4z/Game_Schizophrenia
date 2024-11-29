@@ -25,7 +25,7 @@ public class Timer : MonoBehaviour
             elapsedTime += Time.deltaTime;
 
             // เมื่อเวลาผ่านไปครบ 60 วินาที จะอัปเดตนาที
-            if (Mathf.FloorToInt(elapsedTime / 60) > displayedMinutes)
+            if (Mathf.FloorToInt(elapsedTime / 1) > displayedMinutes)
             {
                 count++;
                 displayedMinutes++;

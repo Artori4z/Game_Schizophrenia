@@ -13,8 +13,8 @@ public class MenuCam : MonoBehaviour
 
     private void Start()
     {
-        CloseCamara.gameObject.SetActive(false); // ปิด Camera1
-        OpenCamara.gameObject.SetActive(true);  // เปิด Camera2
+        CloseCamara.gameObject.SetActive(true); // ปิด Camera1
+        OpenCamara.gameObject.SetActive(false);  // เปิด Camera2
         CloseCamara2.gameObject.SetActive(false);
         CloseCamara3.gameObject.SetActive(false);
         CloseCamara4.gameObject.SetActive(false);
